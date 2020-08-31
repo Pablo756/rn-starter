@@ -1,14 +1,21 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Button } from "../components/Button";
 
-const HomeScreen = () => {
-  return <Text style={styles.text}>HomeScreen</Text>;
+export const HomeScreen = ({ navigation }) => {
+  return (
+    <>
+      <Button
+        title={"Components screen"}
+        onPress={() => navigation.navigate("Components")}
+      />
+      <Button
+        title={"List screen"}
+        onPress={() => navigation.navigate("List")}
+      />
+      <Button
+        title={"Image screen"}
+        onPress={() => navigation.navigate("Image")}
+      />
+    </>
+  );
 };
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 30,
-  },
-});
-
-export default HomeScreen;
