@@ -12,3 +12,22 @@ export const imgData = [
     title: "3",
   },
 ];
+
+export const navigateData = [
+  {
+    navigate: "Components",
+    title: "Components screen",
+  },
+  {
+    navigate: "List",
+    title: "List screen",
+  },
+  {
+    navigate: "Image",
+    title: "Image screen",
+  },
+  {
+    navigate: "Counter",
+    title: "Counter screen",
+  },
+];
