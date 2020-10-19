@@ -30,4 +30,12 @@ export const navigateData = [
     navigate: "Counter",
     title: "Counter screen",
   },
+  {
+    navigate: "Color",
+    title: "Color screen",
+  },
+  {
+    navigate: "Rgb",
+    title: "RGB screen",
+  },
 ];
