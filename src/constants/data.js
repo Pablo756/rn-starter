@@ -38,4 +38,12 @@ export const navigateData = [
     navigate: "Rgb",
     title: "RGB screen",
   },
+  {
+    navigate: "Text",
+    title: "TextInput screen",
+  },
+  {
+    navigate: "Password",
+    title: "Password screen",
+  },
 ];
